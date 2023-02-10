@@ -1,182 +1,177 @@
+@font-face {
+	font-family: 'FT Base';
+	src: url('fonts/FTBase-Regular.woff2') format('woff2');
+	/* font-family: 'Poppins';
+	src: url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2'); */
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #303030;
+	padding: 0;
+	margin: 0;
+	font-family: 'FT Base';
+	background: #303030;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 h4 {
-  font-family: FT Base;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  color: #f9f7f4;
+	font-family: 'FT Base';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: -0.01em;
+	text-align: left;
+	color: #f9f7f4;
 }
 
 h1 {
-  font-family: FT Base;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 36px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #c57a5c;
+	font-family: 'FT Base';
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	color: #c57a5c;
 }
 
 p {
-  font-family: FT Base;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #c7c2bb;
+	font-family: 'FT Base';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #c7c2bb;
 }
 
 label {
-  font-family: FT Base;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #c7c2bb;
-  display: block;
+	font-family: 'FT Base';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #c7c2bb;
+	display: block;
 }
 
 input {
-  background-color: #3d3d3d;
-  border: 1px solid #3d3d3d;
-  outline: none;
-  color: #c7c2bb;
-  width: 445px;
-  height: 52px;
-  padding: 1rem 0.75rem;
+	background-color: #3d3d3d;
+	border: 1px solid #3d3d3d;
+	outline: none;
+	color: #c7c2bb;
+	width: 445px;
+	height: 52px;
+	padding: 1rem 0.75rem;
 }
 
-input[type="button"] {
-  font-family: FT Base;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0em;
-  text-align: left;
-  background-color: #c57a5c;
-  color: #f9f7f4;
-  width: 120px;
-  height: 52px;
-  text-align: center;
-  border: none;
-  cursor: pointer;
+input[type='button'] {
+	font-family: 'FT Base';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	background-color: #c57a5c;
+	color: #f9f7f4;
+	width: 120px;
+	height: 52px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
 }
 
 .main {
-  padding: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+	padding: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	-webkit-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+	width: 100%;
 }
 
 .first__first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 12px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	gap: 12px;
 }
 
 .second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-column-gap: 20px;
-  column-gap: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-column-gap: 20px;
+	column-gap: 20px;
 }
 
 .flex__item {
-  margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 @media screen and (max-width: 768px) {
-  .main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .first__second {
-    display: block;
-    width: 100%;
-  }
-  .first__second input {
-    width: 100%;
-  }
-
-  input {
-    width: 100%;
-  }
-
-  .flex__item {
-    width: 100%;
-  }
+	.main {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.first__second input {
+		width: 100%;
+	}
 }
 /*# sourceMappingURL=style2.css.map */
